@@ -43,7 +43,7 @@
   cursor: pointer;
   border-style: solid;
   border-width: 3px;
-  border-color: #5cacee;
+  border-color: #add8e6;
   border-radius: 10px;
 }
 
@@ -58,7 +58,7 @@
   margin-left: auto;
   width: fit-content;
   height: fit-content;
-  border: 2px solid #5cacee;
+  border: 2px solid #add8e6;
   border-radius: 10px;
   border-width: 3px;
 }
@@ -93,7 +93,19 @@
   padding: 25px;
   border-radius: 0px;
   display: flex;
+}
 
+.happening-image {
+  margin-left: 10px;
+  margin-right: 160px;
+}
+
+#happening-input {
+  margin: 15px 0px;
+}
+
+.happening-bar-button {
+  margin: 15px 0px;
 }
 
 .feedpics {
@@ -105,5 +117,80 @@
 
 .posts {
   overflow: auto;
-  height: 70%;
+  height: 100%;
+}
+
+.profile {
+  margin-left: 2.5%;
+  margin-top: 100px;
+  border: 5px solid whitesmoke;
+  width: 25%;
+  height: 10vw;
+  position: fixed;
+  background-image: linear-gradient(to top, white 50%, #add8e6 50%);
+}
+
+.profilepic {
+  float: left;
+  border-radius: 50%;
+  margin: 20px;
+  margin-top: 13%;
+}
+
+.profilename {
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 20px;
+  margin-left: 180px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.profile-links {
+  margin-bottom: 25px;
+  margin-left: 75px;
+}
+
+.info {
+  margin: 10px;
+}
+
+.info-box {
+  margin-left: 2.5%;
+  margin-top: 20vw;
+  border: 5px solid whitesmoke;
+  width: 25%;
+  position: fixed;
+}
+
+.friends {
+  margin-top: 100px;
+  margin-left: 72%;
+  width: 25%;
+  height: fit-content;
+  border: 5px solid whitesmoke;
+  position: fixed;
+}
+
+.friend {
+  margin: 10px;
+  height: 85px;
+}
+
+.friendsPic {
+  float: left;
+  margin: 10px;
+}
+
+.add-button {
+  background-color: #4f7dc8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 16px;
+}
+
+.add-button:hover {
+  background-color: rgb(0, 0, 255);
 }
