@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Post(props) {
     return (
         <React.Fragment>
-            <img src={props.pic} alt="profile pic"></img>
+            <img class="feedpics" src={props.pic} alt="profile pic"></img>
             <h3>{props.userName}</h3>
             <p>{props.text}</p>
             <hr />
